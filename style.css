@@ -4,36 +4,70 @@
 @import url("https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+@font-face {
+    font-family: "Comodo-Stamp";
+    src: url("Comodo-Stamp.otf");
+
+}
+
+@font-face {
+    font-family: 'Comodo';
+    src: url("Comodo Vintage Free.otf");
+}
+
+@font-face {
+    font-family: 'Open Sauce';
+    src: url("OpenSauceSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Farmhand Sans";
+    src: url("FarmhandInline-Regular.woff");
+}
+
 body {
-  box-sizing: content-box;
-  margin: 0;
-  padding: 0;
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
 }
 
 p {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+    font-family: 'Open Sauce';
+    font-weight: 400;
+    font-style: normal;
+}
+
+.farmhand-sans{
+    font-family: "Farmhand Sans";
+}
+
+.comodo {
+    /* font-family: 'Comodo'; */
+    font-family: "Comodo-Stamp";
+}
+
+.open-sauce {
+    font-family: 'Open Sauce';
 }
 
 .two-hundred-pixels div {
-  width: 200px;
-  height: 200px;
+    width: 200px;
+    height: 200px;
 }
 
 
 .bubblegum {
-  font-family: "Bubblegum Sans", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Bubblegum Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .doodle {
-  font-family: "Rubik Doodle Shadow", system-ui;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Rubik Doodle Shadow", system-ui;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .hero-text {
-  font-size: 5rem;
+    font-size: 5rem;
 }
