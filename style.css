@@ -1,29 +1,23 @@
 /** @format */
 
-@import url("https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 @font-face {
     font-family: "Comodo-Stamp";
-    src: url("Comodo-Stamp.otf");
+    src: url("./fonts/Comodo-Stamp.otf");
 
 }
 
 @font-face {
     font-family: 'Comodo';
-    src: url("Comodo Vintage Free.otf");
+    src: url("./fonts/Comodo Vintage Free.otf");
 }
 
 @font-face {
     font-family: 'Open Sauce';
-    src: url("OpenSauceSans-Regular.ttf");
+    src: url("./fonts/OpenSauceSans-Regular.ttf");
 }
 
-@font-face {
-    font-family: "Farmhand Sans";
-    src: url("FarmhandInline-Regular.woff");
-}
+
 
 body {
     box-sizing: content-box;
@@ -61,18 +55,6 @@ p {
     height: 200px;
 }
 
-
-.bubblegum {
-    font-family: "Bubblegum Sans", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-.doodle {
-    font-family: "Rubik Doodle Shadow", system-ui;
-    font-weight: 400;
-    font-style: normal;
-}
 
 .hero-text {
     font-size: 5rem;
