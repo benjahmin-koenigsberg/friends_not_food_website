@@ -31,6 +31,12 @@ body {
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+    text-transform: none;
+    color: inherit;
+}
+
 p {
     font-family: 'Open Sauce';
     font-weight: 400;
