@@ -59,3 +59,13 @@ p {
 .hero-text {
     font-size: 5rem;
 }
+
+img {
+    width: 16rem;
+    cursor: pointer;
+}
+
+.hover:hover{
+transform: scale(1.05);
+transition: 0.3s;
+}
