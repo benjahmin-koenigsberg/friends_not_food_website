@@ -17,7 +17,9 @@
     src: url("./fonts/OpenSauceSans-Regular.ttf");
 }
 
-
+/* *{
+        border: .1rem solid black;
+} */
 
 body {
     box-sizing: content-box;
@@ -68,10 +70,16 @@ p {
 
 img {
     width: 16rem;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
+.contact-img{
+    width: 23rem;;
+}
 
+/* .coming-soon-img{
+    width: 14rem;
+} */
 
 
 .sm-img {
