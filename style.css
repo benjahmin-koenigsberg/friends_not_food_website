@@ -52,6 +52,12 @@ p {
     font-style: normal;
 }
 
+.nav-item{
+    font-size: 1.5rem;
+    /* font-size: calc(60% + .8vw + .2vh); */
+    text-align: center;
+}
+
 .bold{
     font-family: 'Open Sauce Bold';
     font-weight: 700;
